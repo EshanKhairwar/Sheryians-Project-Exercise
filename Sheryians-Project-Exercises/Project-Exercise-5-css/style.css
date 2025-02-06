@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 800px; /* Adds 3D depth */
+    perspective: 800px; 
 }
 
 form {
@@ -29,12 +29,12 @@ form {
     border-radius: 20px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    transform: rotateY(-5deg); /* Initial tilt effect */
+    transform: rotateY(-5deg); 
     transition: transform 0.5s ease-in-out;
 }
 
 form:hover {
-    transform: rotateY(0deg); /* Straighten on hover */
+    transform: rotateY(0deg); 
 }
 
 form h1 {
